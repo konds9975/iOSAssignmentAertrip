@@ -8,16 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {
+    
 
+    @IBOutlet weak var collectionView: UICollectionView!
     
     @IBOutlet weak var segmentControl: UISegmentedControl!
     
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.segmentControl.removeAllSegments()
-       
+       collectionView.delegate = self
+        collectionView.dataSource = self
     }
     
     @IBAction func firstBtnAction(_ sender: UIButton) {
@@ -65,7 +69,13 @@ class ViewController: UIViewController {
         
     }
     
-
-
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        <#code#>
+    }
+   
 }
 

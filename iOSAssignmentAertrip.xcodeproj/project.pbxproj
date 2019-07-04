@@ -14,6 +14,7 @@
 		FF70AAA722CE678000199831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF70AAA522CE678000199831 /* LaunchScreen.storyboard */; };
 		FF70AAB222CE678000199831 /* iOSAssignmentAertripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70AAB122CE678000199831 /* iOSAssignmentAertripTests.swift */; };
 		FF70AABD22CE678000199831 /* iOSAssignmentAertripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70AABC22CE678000199831 /* iOSAssignmentAertripUITests.swift */; };
+		FF70AACB22CE736000199831 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70AACA22CE736000199831 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FF70AAB822CE678000199831 /* iOSAssignmentAertripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAssignmentAertripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF70AABC22CE678000199831 /* iOSAssignmentAertripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAssignmentAertripUITests.swift; sourceTree = "<group>"; };
 		FF70AABE22CE678000199831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF70AACA22CE736000199831 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FF70AA9C22CE677C00199831 /* AppDelegate.swift */,
 				FF70AA9E22CE677C00199831 /* ViewController.swift */,
+				FF70AACA22CE736000199831 /* CollectionViewCell.swift */,
 				FF70AAA022CE677C00199831 /* Main.storyboard */,
 				FF70AAA322CE678000199831 /* Assets.xcassets */,
 				FF70AAA522CE678000199831 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				FF70AA9F22CE677C00199831 /* ViewController.swift in Sources */,
 				FF70AA9D22CE677C00199831 /* AppDelegate.swift in Sources */,
+				FF70AACB22CE736000199831 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
